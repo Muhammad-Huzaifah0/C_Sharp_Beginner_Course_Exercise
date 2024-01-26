@@ -26,8 +26,22 @@ namespace C_Sharp_Beginner_Course_Exercise
             //arraycopy();
             //EumsExe();
             //Countnumonehundard();
-            continuouslyenternum();
+            //continuouslyenternum();
             //Secretnum();
+            ReversedTheName();
+
+
+        }
+
+        private static void ReversedTheName()
+            {
+            Console.WriteLine("The Enter the name to Reverse it:");
+            var name = Console.ReadLine();
+
+            for(int i = name.Length -1 ; i >= 0; i--)
+            {
+                Console.WriteLine(name[i]);
+            }
 
 
         }
